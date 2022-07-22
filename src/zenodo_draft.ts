@@ -1,7 +1,7 @@
 import fs from 'fs';
 import { basename } from 'path';
 import fetch from 'node-fetch';
-import { fromFile as fileTypefromFile } from 'file-type';
+import { fileTypefromFile, fromFile as fileTypefromFile } from 'file-type';
 import { auth_headers, DepositionFile, is_same_file_present } from './utils';
 
 export interface PublishResult {
